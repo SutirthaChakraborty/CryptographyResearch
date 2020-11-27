@@ -1136,7 +1136,7 @@ def main():
     fo.write("\n Output file is "+str(RECORD)+"\n------------------------------------------------------------------ \n")
     numOfCurvePerGo=int(input("Enter number of Curves Per Go :: "))
     getECMFactors(n, numOfCurvePerGo)
-    
+    print("Output File Created")
     
     fo.close()
 
